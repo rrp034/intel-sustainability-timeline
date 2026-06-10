@@ -73,6 +73,33 @@ header p {
   letter-spacing: 0.3px;
 }
 
+.card-nav {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+.card-nav a {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.95);
+  color: #005fa3;
+  padding: 10px 18px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 700;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, background 0.2s ease, color 0.2s ease;
+}
+
+.card-nav a:hover,
+.card-nav a:focus-visible {
+  transform: translateY(-1px);
+  background: #e8f4ff;
+  color: #003d72;
+}
+
 /* Timeline Container - Large Screens (Horizontal Scroll) */
 section {
   display: flex;
