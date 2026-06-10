@@ -205,6 +205,16 @@ section > div p {
   line-height: 1.6;
   flex-grow: 1;
   transition: all 0.3s ease;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  margin: 0;
+}
+
+section > div:hover p {
+  max-height: 200px;
+  opacity: 1;
+  margin-top: 12px;
 }
 
 /* Card Hover Effect */
